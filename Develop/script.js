@@ -34,7 +34,7 @@ var askForOptions = function() {
     //   //ask if user wants numbers
       var numberConfirm = confirm("Would you like to include numbers?");
       if(numberConfirm){
-        superArray = superArray.concat(upperArray);
+        superArray = superArray.concat(numberArray);
       }
     //   //ask if user wants symbols
       var symbolConfirm = confirm("Would you like to include symbols?");
